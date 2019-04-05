@@ -1,0 +1,62 @@
+@media screen and (max-width: 800px)
+    .main
+        &__head
+            font-size: 1.2rem
+        .domain
+            &__name
+                width: 25%
+            &__date
+                width: 25%
+            &__ban
+                width: 25% 
+@media screen and (max-width: 580px)
+    .header
+        height: 160px
+        &__error
+            bottom: 12px
+            font-size: 1.4rem
+        #addInput
+           width: calc(100% - 65px) 
+        #addDomain
+            width: 55px
+            font-size: 0
+            &:after
+                content: "\f067"
+                font: normal normal normal 15px/1 FontAwesome
+    .main
+        &__head
+            height: 72px
+            &__domain
+                width: 35%
+            &__dateAdd
+                width: 20%
+            &__ban  
+                width: 20%   
+            &__button
+                width: 54px
+        .domain
+            &__item
+                font-size: 1.2rem
+            &__delete
+                width: 42px
+                border-radius: 16px
+                font-size: 0
+                &:after
+                    content: "\f014"
+                    font: normal normal normal 15px/1 FontAwesome
+            &__name
+                width: 35%
+            &__date
+                width: 20%
+            &__ban
+                width: 20% 
+@media screen and (max-width: 330px)
+    .main
+        &__head
+            font-size: 1.1rem
+            &__button
+                width: 30px
+                font-size: 0
+        .domain
+            &__item
+                font-size: 1.1rem
